@@ -1,0 +1,369 @@
+@media only screen and (max-width: 767px) {
+    .footer-lower-right li a{
+        margin-left: 0px;
+    }
+    .footer-lower-right li{
+        margin-bottom: 15px;
+    }
+    .footer-description-1{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    .footer-description-2{
+        margin-left: 15px;
+        margin-bottom: 25px;
+    }
+    .article{
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .community-description{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .community-description h2{
+        width: 100%;
+
+    }
+    .community-description p{
+        width: 100%;
+
+    }
+    .community-button{
+        display: flex;
+        justify-content: center;
+    }
+    .community-description-2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .community-description-2 img{
+        display: inline-block;
+    }
+
+    .article-img{
+        width: 50%;
+        margin: auto;
+    }
+    .article_img svg{
+        display: inline-block;
+    }
+
+    .making-facility{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    /* .explore-section{
+        margin-left: 0px;
+    }
+    .explore{
+        background-color: #ffffff;
+        margin-top: 50px;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0px 4px 40px rgb(0 0 0 / 10%);
+    } */
+    .our-advantage{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .w-80{
+        width: 80%;
+        margin: auto;
+    }
+
+    .promotion{
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .explore-section{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .explore{
+        margin-top: 0px;
+        padding: 39px 46px 50px 64px;
+    }
+    .explore button{
+        margin-top: 0px;
+        padding: 39px 46px 50px 64px;
+        display: none;
+    }
+    .explore-text{
+        text-align: left;
+    }
+    .facility-section{
+        margin-top: 60px;
+        margin-bottom: 65px;
+    }
+
+    .advantage-description h2{
+        margin-top: 35px;
+    }
+    .advantage-description p{
+        margin-top: 20px;
+    }
+
+    .promoting-description{
+        text-align: center;
+        margin-bottom: 60px;
+        width: 80%;
+        margin: auto;
+    }
+
+    }
+  @media only screen and (max-width: 991px) {
+    .footer-lower-right li a{
+        margin-left: 0px;
+    }
+    .footer-lower-right li{
+        margin-bottom: 15px;
+    }
+    .footer-description-1{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .footer-description-2{
+        margin-left: 15px;
+        margin-bottom: 25px;
+    }
+    .article{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .community-description{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .community-description h2{
+        width: 100%;
+
+    }
+    .community-description p{
+        width: 100%;
+
+    }
+    .community-button{
+        display: flex;
+        justify-content: center;
+    }
+    .community-description-2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .community-description-2 img{
+        display: inline-block;
+    }
+    .article-img-1{
+        display: inline-block;
+    }
+    .article_img svg{
+        display: inline-block;
+    }
+
+    .making-facility{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .promotion{
+        text-align: center;
+    }
+
+    .promoting-description{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .promoting-description h2{
+        margin-top: 45px;
+    }
+
+    /* .explore-section{
+        margin-left: 0px;
+    }
+    .explore{
+        background-color: #ffffff;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0px 4px 40px rgb(0 0 0 / 10%);
+    } */
+    }
+
+  @media only screen and (max-width: 576px) {
+    .section-one{
+        height: 207px;
+        background: url(../images/background-top.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .footer-lower-right li a{
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    
+    .footer-lower-right li{
+        margin-bottom: 15px;
+    }
+    .footer-description-1{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-description-2{
+        margin-left: 15px;
+        margin-bottom: 25px;
+
+    }
+    .article{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .community-description{
+        text-align: center;
+        margin-bottom: 85px;
+        margin-top: -33px;
+    }
+    .community-description h2{
+        width: 100%;
+
+    }
+    .community-description p{
+        width: 100%;
+
+    }
+    .community-button{
+        display: flex;
+        justify-content: center;
+    }
+    .community-description-2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .community-description-2 img{
+        display: inline-block;
+    }
+
+    .article_img svg{
+        display: inline-block;
+    }
+
+    .promotion{
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .promoting-description{
+        text-align: center;
+        margin-bottom: 60px;
+        /* width: 80%;
+        margin: auto; */
+    }
+    .promoting-description h2{
+        margin-top: 45px;
+    }
+
+    .article-img-1{
+        display: inline-block;
+    }
+    .making-facility{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    /* .explore{
+        background-color: #ffffff;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0px 4px 40px rgb(0 0 0 / 10%);
+    }
+
+    .explore-text h4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        opacity: 0.6;
+        margin: 29px 0px;
+    } */
+    
+    .our-advantage{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .w-80{
+        width: 80%;
+        margin: auto;
+    }
+
+    .facility-description h2{
+        margin-top: 40px;
+    }
+    .facility-description p{
+        margin-top: 0px;
+        min-height: 0px;
+    }
+
+    .facility-section{
+        margin-top: 60px;
+    }
+
+    .advantage-description h2{
+        margin-top: 35px;
+    }
+    .advantage-description p{
+        margin-top: 20px;
+    }
+
+    .explore-section{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .explore{
+        margin-top: 0px;
+        padding: 39px 46px 50px 64px;
+    }
+    .explore button{
+        margin-top: 0px;
+        padding: 39px 46px 50px 64px;
+        display: none;
+    }
+    .explore-text{
+        text-align: left;
+    }
+
+    .explore-text h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .explore-text h4{
+        font-size: 16px;
+        line-height: 23px;
+        padding-right: 0px;
+    }
+}

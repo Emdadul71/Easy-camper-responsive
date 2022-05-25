@@ -1,0 +1,526 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 40
+}
+
+ /* section one start */
+
+.icon-parent{
+    /* background-color: #ffffff; */
+}
+
+.dropdown-btn{
+    border: none;
+}
+.icon-1{
+    color: #ffffff;
+}
+.icon-2{
+    margin-right: -5px;
+}
+
+
+.icon-3{
+    color: orange;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.menu-icon {
+  border-radius: 50px;
+  padding: 5px 7px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.section-one{
+    height: 650px;
+    background: url('../images/background-top.png') no-repeat 100%;
+    background-size: cover;
+}
+
+
+/* section one Ends */
+
+/* ========== Explore Section start =========== */
+.explore-section{
+  margin-left: 48px;
+}
+.explore {
+    background-color: #ffffff;
+    max-width: 650px;
+    margin-top: -250px;
+    padding: 96px 50px 50px 64px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+
+.explore-text h1{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 49px;
+}
+
+.explore-text h4{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+  margin: 29px 0px;
+  padding-right: 50px;
+}
+
+.color{
+  color: #F78065;
+}
+
+.explore-button{
+  background: #F78065;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  border: none;
+  transition: 0.3s;
+}
+
+.explore-button:hover{
+  background: #F78065;
+  opacity: 0.8;
+}
+
+
+
+/* ========== Explore Section End =========== */
+
+
+/* ========== Promoting Section Start ========= */
+
+.promoting-section{
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+.promoting-description h2{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  margin-top: 84px;
+}
+
+.promoting-description p{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 30px 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.promoting-description h4{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F78065;
+
+}
+
+/* ========== Promoting Section Ends ========= */
+
+
+/* ========== Facility Section Starts ========= */
+
+.facility-description h2{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 64px;
+}
+
+.facility-description p{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 31px;
+  min-height: 70px;
+}
+
+.facility-description h4{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F78065;
+}
+
+.facility-description h4 a{
+  text-decoration: none;
+  color: #F78065;
+  transition: 0.3s;
+}
+
+.facility-description h4 a:hover{
+  color: #F78065;
+  opacity: 0.8;
+}
+.facility-section {
+  margin-top: 85px;
+  margin-bottom: 125px;
+}
+
+.making-facility{
+  margin-bottom: 90px;
+  margin-left: 46px;
+}
+
+
+/* ========== Facility Section Starts ========= */
+
+
+/* ========== Community Section Starts ========= */
+
+.community-section{
+  margin-top: 65px;
+}
+
+.community-description h2{ 
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000000;
+  width: 67%;
+}
+
+.community-description p{ 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 32px 0px 48px 0px;
+  width: 67%;
+}
+
+.community-description-2 h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 24px;
+
+}
+.community-description-2 p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3F3D56;
+  margin: 8px 0px 11px 0px;
+
+}
+.community-description-2 a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F78065;
+  text-decoration: none;
+  transition: 0.3ms;
+}
+
+.community-description-2 a:hover{
+  /* color: #F78065; */
+  background: #F78065;
+  color: white;
+  padding: 0px 10px;
+  opacity: 0.9;
+  border-radius: 5px;
+  transition-delay: 0.03s;
+  transition-timing-function: ease-in-out;
+
+}
+
+
+/* ========== Community Section Ends ========= */
+
+/* ========== Advantage Section Starts ========= */
+
+.advantage-section{
+  margin-top: 100px;
+}
+
+.our-advantage{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000000;
+  margin-bottom: 80px;
+
+}
+
+.advantage-description h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 64px;
+  min-height: 52px;
+}
+.advantage-description p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 52px;
+}
+
+
+/* ========== Advantage Section Ends ========= */
+
+
+/* ========== Footer Section Starts ========= */
+
+.footer-section{
+  margin-top: 65px;
+  background:#F7F7F7;
+  padding-top: 65px;
+}
+
+.footer-description-2 ul{
+  padding: 0px;
+}
+.footer-description-2 ul li{
+  list-style-type: none;
+  margin-top: 24px;
+}
+.footer-description-2 li a{
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.empty-div{
+  border: 1px solid #000000;
+  opacity: 0.2;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-lower p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #000000;
+}
+
+.footer-lower-container{
+  padding-bottom: 20px;
+}
+
+.footer-section-heading{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.footer-description-2 li a:hover{
+  text-decoration: underline;
+}
+
+
+.footer-description-1 p{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.footer-description-1 h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  width: 95%;
+}
+
+.footer-lower{
+  display: flex;
+}
+
+.footer-lower-right ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-lower-right li{
+  list-style-type: none;
+}
+.footer-lower-right li a{
+  margin-left: 25px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #000000;
+  cursor: pointer;
+
+}
+
+.footer-lower-right li a:hover{
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+/* extra css */
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #0F1041;
+  margin: 41px;
+}
+
+
+
+
+
+
